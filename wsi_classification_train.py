@@ -9,7 +9,7 @@ import torch.utils.data as data
 import numpy as np
 from sklearn.metrics import roc_auc_score
 from TransMIL.models.TransMIL import TransMIL
-from loader import TrainBagLoader,ValBagLoader
+from loader import TrainBagLoader
 from TransMIL.MyOptimizer.radam import RAdam
 from TransMIL.MyOptimizer.lookahead import Lookahead
 from utils.utils import compute_TP_FP_TN_FN, compute_sensitivity, compute_specificity

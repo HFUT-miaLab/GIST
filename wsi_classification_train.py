@@ -1,6 +1,3 @@
-# create date: 2022/11/16
-# author: Dongdong Sun
-# email: ddongSun@mail.hfut.edu.cn
 import os
 import time
 import torch
@@ -44,7 +41,6 @@ def main(args):
     loss_function = torch.nn.CrossEntropyLoss()
 
     epochs = args.nepochs
-    best_auc = 0.0
     start_time = time.time()
 
     for epoch in range(epochs):

@@ -16,7 +16,7 @@ Haibo Wu, Wei Wang, and Yushan Zheng are the corresponding authors.
 ## Overview:
 ![framework](images/framework.jpg)
 
-## install 3rd library
+## Install 3rd library
 ![python](https://img.shields.io/badge/python-3.8-blue)
 ![torch](https://img.shields.io/badge/torch-1.8.1%2Bcu111-red)
 ![torchvision](https://img.shields.io/badge/torchvision-0.9.1+cu111-purple)
